@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-	int age, yrn, ybd;
+	long long age, yrn, ybd;
 	printf("Enter your age:");
-	scanf("%d", &age);
+	scanf("%lld", &age);
 	printf("The current year is:");
-	scanf("%d", &yrn);
+	scanf("%lld", &yrn);
 	ybd=yrn-age;
-	printf("Your year of birth is: %d", ybd);
+	printf("Your year of birth is: %lld", ybd);
 	return 0;
 }
